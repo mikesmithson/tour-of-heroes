@@ -1,7 +1,6 @@
 import {Hero} from './hero';
 
 export const HEROES: Hero[] = [
-  {id: 1,  name: 'The Hulk', quote: '"Hulk Smash!"', imageUrl: 'assets/images/hulk.jpg'},
   {id: 11, name: 'Mr. Fantastic', quote: '"How Nice"'},
   {id: 12, name: 'Invisible Woman'},
   {id: 13, name: 'Thor'},
@@ -11,5 +10,6 @@ export const HEROES: Hero[] = [
   {id: 17, name: 'Wolverine'},
   {id: 18, name: 'Human Torch'},
   {id: 19, name: 'Dr. Strange'},
-  {id: 20, name: 'Sub-Mariner'}
+  {id: 20, name: 'Sub-Mariner'},
+  {id: 21, name: 'The Hulk', quote: '"Hulk Smash!"', imageUrl: 'assets/images/hulk.jpg'}
 ];
